@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>letterboxD</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="https://variety.com/wp-content/uploads/2023/09/Letterboxd.png?w=960&h=540&crop=1&resize=910%2C511">
+</head>
+<body>
+    <header>
+        <div class="logo">LetterboxD</div>
+        <nav>
+            <ul>
+                <li><a href="#signin">signin</a></li>
+                <li><a href="#create account">Create account</a></li>
+                <li><a href="#films">films</a></li>
+                <li><a href="#lists">lists</a></li>
+                <li><a href="#members">members</a></li>
+                <li><a href="#journal">members</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="movie" id="cinema">
+        <div class="movie-content">
+            <h2>"Any Film is Worth Seeing...!</h2>
+            <h2> The rest is a matter of taste..."</h2>
+            <br>
+            <a href="#get-started-its-ree" class="btn">get started its free</a>
+        </div>
+    </section>
+    <section class="search and review about movies" id="review">
+        <h2>search and review your movies</h2>
+        <div class="collection-grid">
+            <div class="collection-item" data-aos="fade-up">
+                <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSe99rkQPNs3ZkNLDnAwcq6r0UzesiT64NqSztuvHKUJUnsrcONbFX7qJg_crnLW7BBb3mkZg" alt="Dunkirk_film_poster">
+                <h3>Dunkirk</h3>
+                <p>The enemy has driven the British and French armies to the sea.</p>
+            </div>
+            <div class="collection-item" data-aos="fade-up">
+                <img src="https://www.rogerebert.com/wp-content/uploads/2024/08/Interstellar-scaled.webp" alt="Interstellar_film_poster">
+                <h3>Interstellar</h3>
+                <p>Something that happens or is located between stars .</p>
+            </div>
+            <div class="collection-item" data-aos="fade-up">
+                <img src="https://m.media-amazon.com/images/M/MV5BMTk5ODk1NDkxMF5BMl5BanBnXkFtZTcwNTA5OTY0OQ@@._V1_.jpg" alt="Man_of_steel">
+                <h3>Man of steel</h3>
+                <p>A very strong man .</p>
+            </div>
+            <div class="collection-item" data-aos="fade-up">
+                <img src="https://cinema-fanatic.com/wp-content/uploads/2010/06/inception_poster2.jpg" alt="inception">
+                <h3>inception</h3>
+                <p> A process of planting an idea in someone's mind without them realizing it.</p>
+            </div>
+        </div>
+    </section>
+</head>
+<body>
+    <div class="container">
+        <h1>Movie Title</h1>
+        <img src="https://www.rogerebert.com/wp-content/uploads/2024/08/Interstellar-scaled.webp" alt="Movie Poster" class="movie-poster">
+        <div class="review-form">
+            <h2>Write a Review</h2>
+            <form id="reviewForm">
+                <label for="name">Name</label>
+                <input type="text" id="name" required>
+                <label for="rating">Rating</label>
+                <select id="rating" required>
+                    <option value="">Select Rating</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <label for="review">Review</label>
+                <textarea id="review" rows="5" required></textarea>
+                <button type="submit">Submit Review</button>
+            </form>
+        </div>
+        <div class="reviews" id="reviews">
+            <h2>Reviews</h2>
+            <!-- Reviews will be dynamically added here -->
+        </div>
+    </div>
+    <section class="about" id="about">
+        <h2>About LetterboxD</h2>
+        <p>At LetterboxD, Users can write reviews, rate films, and tag them with keywords and record what films they've seen, when they saw them, and what they liked or disliked .</p>
+    </section>
+
+
+
